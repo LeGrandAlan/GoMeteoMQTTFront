@@ -1,0 +1,54 @@
+.gaci-navbar {
+  position: sticky;
+  display: flex;
+  top: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  font-family: Raleway, sans-serif;
+  background-color: $gaci-black;
+  color: $gaci-white;
+
+  &__section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    width: 2rem;
+    margin-right: 1rem;
+    background-color: $gaci-white;
+    color: $gaci-black;
+    font-weight: 500;
+  }
+
+  .gaci-input {
+    width: 300px;
+    border-color: $gaci-white;
+
+    &::placeholder {
+      color: $gaci-black;
+      font-style: italic;
+      opacity: 1;
+    }
+  }
+
+  .gaci-button {
+    border-color: $gaci-white;
+
+    &:hover {
+      background-color: $gaci-white;
+      color: $gaci-black
+    }
+
+    &:active {
+      background-color: darken($gaci-white, 20%);
+      border-color: darken($gaci-white, 20%);
+    }
+  }
+}

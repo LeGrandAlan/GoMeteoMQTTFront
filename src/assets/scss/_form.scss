@@ -1,0 +1,23 @@
+.gaci-input {
+  padding: .25rem .5rem;
+  border-radius: 0;
+  border: 2px solid $gaci-black;
+  font-weight: 500;
+  transition: .3s;
+
+  &:hover {
+    background-color: darken($gaci-white, 5%);
+  }
+
+  &:active {
+    background-color: darken($gaci-white, 10%);
+  }
+
+  &:focus {
+    border-color: lighten($gaci-black, 20%);
+  }
+
+  &::placeholder {
+    opacity: .5;
+  }
+}

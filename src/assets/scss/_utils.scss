@@ -1,0 +1,26 @@
+.gaci {
+  &-row {
+    display: flex;
+    &--center {
+      justify-content: center;
+    }
+  }
+  &-mt-1 {
+    margin-top: 1rem;
+  }
+  &-mt-15 {
+    margin-top: 1.5rem;
+  }
+  &-mr-1 {
+    margin-right: 1rem;
+  }
+  &-mx-1 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  &-my-2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
