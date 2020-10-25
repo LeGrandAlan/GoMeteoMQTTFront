@@ -1,36 +1,36 @@
 .gaci-button {
   padding: .25rem .75rem;
-  background-color: $gaci-black;
+  background-color: $gaci-blue;
   color: $gaci-white;
   font-weight: bold;
   text-transform: uppercase;
-  border: 2px solid $gaci-black;
+  border: 2px solid $gaci-blue;
   cursor: pointer;
   transition: .3s;
 
   &:hover {
-    background-color: lighten($gaci-black, 10%);
-    border-color: lighten($gaci-black, 10%);
+    background-color: lighten($gaci-blue, 10%);
+    border-color: lighten($gaci-blue, 10%);
   }
 
   &:active {
-    background-color: darken($gaci-black, 10%);
-    border-color: darken($gaci-black, 10%);
+    background-color: darken($gaci-blue, 10%);
+    border-color: darken($gaci-blue, 10%);
   }
 
   &.-inverted {
     background-color: $gaci-white;
-    color: $gaci-black;
+    color: $gaci-blue;
 
     &:hover {
-      border-color: $gaci-black;
-      background-color: $gaci-black;
+      border-color: $gaci-blue;
+      background-color: $gaci-blue;
       color: $gaci-white;
     }
 
     &:active {
-      background-color: darken($gaci-black, 10%);
-      border-color: darken($gaci-black, 10%);
+      background-color: darken($gaci-blue, 10%);
+      border-color: darken($gaci-blue, 10%);
     }
   }
 

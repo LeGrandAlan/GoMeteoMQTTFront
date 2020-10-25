@@ -5,3 +5,14 @@
   font-family: Dosis, sans-serif;
   font-size: 1rem;
 }
+
+.gaci-text {
+
+  &--bold {
+    font-weight: bold;
+  }
+
+  &--blue {
+    color: $gaci-blue;
+  }
+}
