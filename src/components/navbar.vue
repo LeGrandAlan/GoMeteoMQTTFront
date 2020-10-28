@@ -4,10 +4,10 @@
       <div class="gaci-navbar__logo">ACI</div>
       Airport Climate Inspector
     </div>
-    <form>
+    <!--<form>
       <input class="gaci-input gaci-mr-1" type="text" placeholder="Recherche...">
       <button class="gaci-button">Rechercher</button>
-    </form>
+    </form>-->
   </div>
 </template>
 <script>
